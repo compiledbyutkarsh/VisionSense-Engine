@@ -1,22 +1,25 @@
-# AI Face Recognition & Sentiment Analysis
+# FaceGuard AI
 
-A real-time Computer Vision system that detects faces, analyzes emotions, estimates age/gender, and logs attendance automatically.
+A professional-grade real-time face detection and sentiment analysis system.
 
-## 🚀 Features
-- **Real-time Face Detection:** Efficient tracking of faces in a live camera feed.
-- **Sentiment Analysis:** Identifies dominant emotions (Happy, Sad, Neutral, etc.).
-- **Demographic Analysis:** Predicts Age and Gender in real-time.
-- **Attendance Logger:** Automatically saves logs with timestamps to `attendance.txt`.
+## Project Overview
+FaceGuard AI is designed to perform real-time facial analysis, providing high-accuracy emotion recognition and demographic estimation. Built with an extensible architecture for security and attendance tracking applications.
 
-## 🛠 Tech Stack
-- **Python 3.x**
-- **DeepFace:** For facial analysis and model weights.
-- **OpenCV:** For image processing and camera handling.
-- **TensorFlow/Keras:** Backend engine for the models.
+## Core Features
+- **Intelligent Detection:** Real-time face tracking using optimized OpenCV pipelines.
+- **Sentiment Engine:** Deep learning-based analysis of 7 core human emotions.
+- **Demographic Insight:** Real-time age and gender classification.
+- **Modular Architecture:** Clean, maintainable code structure for easy integration.
 
-## ⚙️ Setup Instructions
+## Folder Structure
+- `main.py`: Entry point for the application.
+- `detector.py`: Core face detection and analysis logic.
+- `utils.py`: Helper functions and logging mechanisms.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/compiledbyutkarsh/FaceDetectionProject.git](https://github.com/compiledbyutkarsh/FaceDetectionProject.git)
-   cd FaceDetectionProject
+## Quick Start
+1. Clone the repo: `git clone https://github.com/compiledbyutkarsh/FaceDetectionProject.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Launch: `python main.py`
+
+## License
+MIT License - See [LICENSE](LICENSE) for details.
