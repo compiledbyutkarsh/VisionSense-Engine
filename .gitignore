@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+.DS_Store
+attendance.txt
+known_faces/
+*.h5
