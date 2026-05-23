@@ -1,4 +1,4 @@
-# VisionSense-EngineI
+# VisionSense-Engine
 
 A professional-grade real-time face detection and sentiment analysis system.
 
