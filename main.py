@@ -2,7 +2,6 @@ import cv2
 from deepface import DeepFace
 import datetime
 
-# Database folder jahan tumhari photo hogi (photo ka naam 'Utkarsh.jpg' hona chahiye)
 db_path = "known_faces" 
 
 cap = cv2.VideoCapture(0)
@@ -21,7 +20,6 @@ while True:
             age = res['age']
             gender = res['dominant_gender']
             
-            # Screen par details likho
             cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
             cv2.putText(frame, f"{emotion} | {age}", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
             
