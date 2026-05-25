@@ -17,7 +17,7 @@ FaceGuard AI is designed to perform real-time facial analysis, providing high-ac
 - `utils.py`: Helper functions and logging mechanisms.
 
 ## Quick Start
-1. Clone the repo: `git clone https://github.com/compiledbyutkarsh/FaceDetectionProject.git`
+1. Clone the repo: `git clone https://github.com/compiledbyutkarsh/VisionSense-Engine.git`
 2. Install requirements: `pip install -r requirements.txt`
 3. Launch: `python main.py`
 
