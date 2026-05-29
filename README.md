@@ -21,5 +21,3 @@ FaceGuard AI is designed to perform real-time facial analysis, providing high-ac
 2. Install requirements: `pip install -r requirements.txt`
 3. Launch: `python main.py`
 
-## License
-MIT License - See [LICENSE](LICENSE) for details.
